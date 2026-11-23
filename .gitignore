@@ -1,0 +1,30 @@
+# Environment & Secrets (Never commit API keys or credentials)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+vendor/
+venv/
+.venv/
+
+# Build Outputs & Caches
+dist/
+build/
+out/
+.cache/
+*.log
+
+# OS-Generated Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE Settings
+.vscode/
+.idea/
+*.swp
+*.swo
